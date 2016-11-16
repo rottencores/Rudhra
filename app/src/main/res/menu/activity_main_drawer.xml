@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_permissions"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="Critical apps" />
+        <item
+            android:id="@+id/nav_settings"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="SMS/MMS Logs" />
+        <item
+            android:id="@+id/nav_slideshow"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Application lock" />
+        <item
+            android:id="@+id/nav_manage"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Tools" />
+    </group>
+
+    <item android:title="Contact us">
+        <menu>
+            <item
+                android:id="@+id/nav_page"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Page" />
+            <item
+                android:id="@+id/nav_aboutus"
+                android:icon="@drawable/ic_menu_send"
+                android:title="About us" />
+        </menu>
+    </item>
+
+</menu>

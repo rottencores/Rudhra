@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="C:\Users\midhul\Desktop\ProjectRudhra\Rudhra\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\23.4.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="de4db3785756bfb0915a9f59a9b3f2fea7407be4">
+        <dex dex="C:\Users\midhul\Desktop\ProjectRudhra\Rudhra\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-animated-vector-drawable-23.4.0_bba57712f1f84484b1aa5e7473c0adb4e9ba5451\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\midhul\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\23.4.0\support-annotations-23.4.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="ffbe55fdb2bb456b1485831706a9eac3300bb6b8">
+        <dex dex="C:\Users\midhul\Desktop\ProjectRudhra\Rudhra\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-23.4.0_23cd37d43a3a70d494e2b6d9412edce8465f12d1\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\midhul\Desktop\ProjectRudhra\Rudhra\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\23.4.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="ec75036c3c52e451d0cde50a5aedaf5fd32354a0">
+        <dex dex="C:\Users\midhul\Desktop\ProjectRudhra\Rudhra\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-recyclerview-v7-23.4.0_e8080a4afd260f2ad554d170ca22fe3efa34db79\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\midhul\Desktop\ProjectRudhra\Rudhra\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.4.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="67bd36ee9340ec7c254108936ad16b24bed160cc">
+        <dex dex="C:\Users\midhul\Desktop\ProjectRudhra\Rudhra\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-23.4.0_8af0ef2b5e6cdde0a74c564720f9203725289537\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\midhul\Desktop\ProjectRudhra\Rudhra\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.4.0\jars\libs\internal_impl-23.4.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="ea3c07504d2c8f4b13aa17c45c1b68ed9c1c3674">
+        <dex dex="C:\Users\midhul\Desktop\ProjectRudhra\Rudhra\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-23.4.0_29750fd9cb43302c271d66ee46ff09100198555c\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\midhul\Desktop\ProjectRudhra\Rudhra\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\23.4.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="c2c594cace5d83a3227b2b6e658ecbfd586d3ed9">
+        <dex dex="C:\Users\midhul\Desktop\ProjectRudhra\Rudhra\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-vector-drawable-23.4.0_1d1d407f2ce2872f9cbb8933aecf786ca0541c42\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\midhul\Desktop\ProjectRudhra\Rudhra\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="4f6e314f8955c8c82198a9a718ca30d566a313b0">
+        <dex dex="C:\Users\midhul\Desktop\ProjectRudhra\Rudhra\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_05125c9a25e730c6126a356df8e588d57defbd6d\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\midhul\Desktop\ProjectRudhra\Rudhra\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-appindexing\8.4.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="65d086ee9daaf87b5af62ad24471edafa433354c">
+        <dex dex="C:\Users\midhul\Desktop\ProjectRudhra\Rudhra\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-appindexing-8.4.0_d0d5679e12a7348f15ce14ab5be324cdc94c7702\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\midhul\Desktop\ProjectRudhra\Rudhra\app\build\intermediates\exploded-aar\com.android.support\design\23.4.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="5326d9a850d491714fef8cbfaa9ea3416f0bf0d2">
+        <dex dex="C:\Users\midhul\Desktop\ProjectRudhra\Rudhra\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-design-23.4.0_a36185ec7b99a32a7382516774d675d3b3078ba2\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\midhul\Desktop\ProjectRudhra\Rudhra\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="9be2f957136fb6a481e881bf79e2a16774862f8e">
+        <dex dex="C:\Users\midhul\Desktop\ProjectRudhra\Rudhra\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_e25a657cb54dee384d5abd9d4ca906b3dc767ee7\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\midhul\Desktop\ProjectRudhra\Rudhra\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.4.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="548f06de403a9409f00554b3ee12a9fdea0e236c">
+        <dex dex="C:\Users\midhul\Desktop\ProjectRudhra\Rudhra\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-appcompat-v7-23.4.0_a31f4fc8806af55cdc59e67df64458a7183b0108\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\midhul\Desktop\ProjectRudhra\Rudhra\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.4.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="8e673cdfadd8f2d98fdb2fda2285c30f6e449782">
+        <dex dex="C:\Users\midhul\Desktop\ProjectRudhra\Rudhra\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-basement-8.4.0_3debd25af3c2df89f255346ce27473c816261ac3\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\midhul\Desktop\ProjectRudhra\Rudhra\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\8.4.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="fef2b3e4b6b1b0e5fe7b69fa137a5fa55a3182ab">
+        <dex dex="C:\Users\midhul\Desktop\ProjectRudhra\Rudhra\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-base-8.4.0_fabbd536803ebd13c341b44d5178edf7080c7c13\classes.dex" />
+    </item>
+
+</items>
