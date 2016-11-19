@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -24,20 +25,43 @@
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceSmall"
         android:text="Unknown Sources"
-        android:textSize="25dp"
+        android:textSize="15dp"
+        android:clickable="true"
         android:textColor="@color/white"
         android:id="@+id/USourcesView"
-        android:layout_marginStart="18dp"
-        android:layout_alignTop="@+id/UnknownSources"
+        android:layout_marginStart="56dp"
+        android:layout_below="@+id/UnknownSources"
         android:layout_toEndOf="@+id/UnknownSources" />
+
+    <ToggleButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="New ToggleButton"
+        android:id="@+id/USt"
+        android:textSize="10dp"
+        android:clickable="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:text="Developer options"
+        android:textSize="15dp"
+        android:textColor="@color/white"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/DevTView"
+        android:clickable="true"
+        android:layout_alignBaseline="@+id/DevB"
+        android:layout_alignBottom="@+id/DevB"
+        android:layout_alignStart="@+id/ADBTView" />
 
     <TextView
         android:text="ADB Enabled"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:textSize="25dp"
+        android:textSize="15dp"
+        android:clickable="true"
         android:textColor="@color/white"
-        android:layout_marginStart="22dp"
         android:id="@+id/ADBTView"
         android:layout_alignBaseline="@+id/ADBt"
         android:layout_alignBottom="@+id/ADBt"
@@ -47,38 +71,22 @@
         android:text="ToggleButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="35dp"
+        android:layout_marginTop="50dp"
+        android:textSize="10dp"
+        android:clickable="true"
         android:id="@+id/ADBt"
         android:layout_below="@+id/USt"
-        android:layout_alignParentEnd="true" />
-
-    <ToggleButton
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="New ToggleButton"
-        android:id="@+id/USt"
-        android:layout_alignBaseline="@+id/USourcesView"
-        android:layout_alignBottom="@+id/USourcesView"
         android:layout_alignParentEnd="true" />
 
     <ToggleButton
         android:text="ToggleButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:textSize="10dp"
+        android:clickable="true"
+        android:id="@+id/DevB"
         android:layout_below="@+id/ADBt"
-        android:layout_alignStart="@+id/ADBt"
-        android:layout_marginTop="44dp"
-        android:id="@+id/DevB" />
-
-    <TextView
-        android:text="Developer options"
-        android:textSize="25dp"
-        android:textColor="@color/white"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/DevTView"
-        android:layout_alignBaseline="@+id/DevB"
-        android:layout_alignBottom="@+id/DevB"
-        android:layout_alignStart="@+id/USourcesView" />
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="57dp" />
 
 </RelativeLayout>
