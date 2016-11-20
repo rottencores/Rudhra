@@ -89,4 +89,50 @@
         android:layout_alignParentEnd="true"
         android:layout_marginTop="57dp" />
 
+    <TextView
+        android:text="Screen Lock"
+        android:textSize="15dp"
+        android:clickable="true"
+        android:textColor="@color/white"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="62dp"
+        android:id="@+id/textView13"
+        android:layout_below="@+id/DevB"
+        android:layout_alignEnd="@+id/ADBTView" />
+
+    <ToggleButton
+        android:text="ToggleButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/DevB"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="48dp"
+        android:textSize="10dp"
+        android:clickable="true"
+        android:id="@+id/SLockt" />
+
+    <TextView
+        android:text="Device Administrators"
+        android:textSize="15dp"
+        android:clickable="true"
+        android:textColor="@color/white"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/textView13"
+        android:layout_marginBottom="54dp"
+        android:id="@+id/textView14" />
+
+    <ToggleButton
+        android:text="ToggleButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="38dp"
+        android:textSize="10dp"
+        android:clickable="true"
+        android:id="@+id/DAt" />
+
 </RelativeLayout>
