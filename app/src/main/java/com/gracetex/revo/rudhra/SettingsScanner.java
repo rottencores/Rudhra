@@ -1,5 +1,6 @@
 package com.gracetex.revo.rudhra;
 
+import android.app.Service;
 import android.content.Intent;
 import android.net.Uri;
 import android.os.Bundle;
@@ -67,13 +68,18 @@ public class SettingsScanner extends AppCompatActivity {
             });
         }
 
+
+
+
+
+
         ToggleButton ADBes = (ToggleButton) (findViewById(R.id.ADBt));
         if (Settings.Secure.getInt(getContentResolver(), Settings.Global.ADB_ENABLED, 0) == 1) {
             ADBes.setChecked(true);
             ADBes.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
-                    startActivityForResult(new Intent(Settings.Global.ADB_ENABLED), 0);
+                    startActivityForResult(new Intent(Settings.ACTION_APPLICATION_DEVELOPMENT_SETTINGS), 0);
                 }
             });
         } else {
@@ -81,10 +87,15 @@ public class SettingsScanner extends AppCompatActivity {
             ADBes.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
-                    startActivityForResult(new Intent(Settings.Global.ADB_ENABLED), 0);
+                    startActivityForResult(new Intent(Settings.ACTION_APPLICATION_DEVELOPMENT_SETTINGS), 0);
                 }
             });
         }
+
+
+
+
+
 
         ToggleButton DevS = (ToggleButton) (findViewById(R.id.DevB));
         if (Settings.Secure.getInt(getContentResolver(), Settings.Global.DEVELOPMENT_SETTINGS_ENABLED, 0) == 1) {
@@ -105,7 +116,14 @@ public class SettingsScanner extends AppCompatActivity {
             });
         }
 
+
+
+
+
+
+
         ToggleButton Slt = (ToggleButton) (findViewById(R.id.SLockt));
+
         if (Settings.Secure.getInt(getContentResolver(), LOCK_PATTERN_ENABLED, 0) == 1) {
             Slt.setChecked(true);
 

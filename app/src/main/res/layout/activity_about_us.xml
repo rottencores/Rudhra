@@ -7,15 +7,14 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    android:background="@color/red"
-    tools:context="com.gracetex.revo.rudhra.AboutUs">
+    android:background="@color/red" >
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceLarge"
         android:text="Rudhra"
-        android:id="@+id/textView3"
+        android:id="@+id/textVrudhra"
         android:textSize="60dp"
         android:textColor="@color/white"
         android:layout_alignParentTop="true"
@@ -26,9 +25,9 @@
         android:layout_height="wrap_content"
         android:text="Developed by"
         android:textSize="25dp"
-        android:id="@+id/textView4"
+        android:id="@+id/textVdev"
         android:layout_marginTop="41dp"
-        android:layout_below="@+id/textView3"
+        android:layout_below="@+id/textVrudhra"
         android:layout_centerHorizontal="true" />
 
     <TextView
@@ -38,8 +37,8 @@
         android:text="Abhishek B"
         android:textSize="25dp"
         android:textColor="@color/white"
-        android:id="@+id/textView5"
-        android:layout_below="@+id/textView4"
+        android:id="@+id/textVrocky"
+        android:layout_below="@+id/textVdev"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="15dp" />
 
@@ -50,8 +49,8 @@
         android:text="Jishnu S"
         android:textSize="25dp"
         android:textColor="@color/white"
-        android:id="@+id/textView6"
-        android:layout_below="@+id/textView5"
+        android:id="@+id/textVscadron"
+        android:layout_below="@+id/textVrocky"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="15dp"/>
 
@@ -62,8 +61,8 @@
         android:text="Midhul M S"
         android:textSize="25dp"
         android:textColor="@color/white"
-        android:id="@+id/textView7"
-        android:layout_below="@+id/textView6"
+        android:id="@+id/textVcryzal"
+        android:layout_below="@+id/textVscadron"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="15dp" />
 
@@ -74,8 +73,8 @@
         android:text="Abhishek J M"
         android:textSize="25dp"
         android:textColor="@color/white"
-        android:id="@+id/textView8"
-        android:layout_below="@+id/textView7"
+        android:id="@+id/textVrevo"
+        android:layout_below="@+id/textVcryzal"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="55dp" />
 
@@ -85,9 +84,9 @@
         android:textColor="@color/white"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/textView7"
+        android:layout_below="@+id/textVcryzal"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="13dp"
-        android:id="@+id/textView12" />
+        android:id="@+id/textVbharath" />
 
 </RelativeLayout>

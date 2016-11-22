@@ -113,11 +113,15 @@ public class MainActivity extends AppCompatActivity
                 startActivity(new Intent(this, PermissionDescription.class));
 
             } else if (id == R.id.nav_manage) {
+                startActivity(new Intent(this, RootDetector.class));
 
             } else if (id == R.id.nav_page) {
 
-            } else if (id == R.id.nav_aboutus) {
-                startActivity(new Intent(this, AboutUs.class));
+            } else {
+                if (id == R.id.nav_aboutus) {
+                    Intent i = new Intent(this,AboutUs.class);
+                    startActivity(i);
+                }
             }
         }
 

@@ -39,16 +39,6 @@
 
         </RelativeLayout>
 
-        <ImageView
-            android:layout_width="119dp"
-            android:layout_height="119dp"
-            android:id="@+id/imageView2"
-            android:background="@drawable/rudhraw"
-            android:layout_gravity="center_horizontal|top"
-            android:layout_below="@+id/fullscreen_content_controls"
-            android:layout_centerHorizontal="true"
-            android:layout_marginTop="75dp" />
-
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"

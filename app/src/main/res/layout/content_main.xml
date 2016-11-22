@@ -15,7 +15,7 @@
     tools:context="com.gracetex.revo.rudhra.MainActivity">
 
     <TextView
-        android:text="Welcome !"
+        android:text="Welcome"
         android:textColor="@color/white"
         android:textSize="35dp"
         android:layout_width="wrap_content"
@@ -36,14 +36,16 @@
         android:layout_centerHorizontal="true"
         android:layout_marginTop="48dp" />
 
-    <SeekBar
+    <EditText
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:textColor="@color/white"
+        android:ems="10"
         android:layout_below="@+id/textView10"
-        android:layout_marginTop="41dp"
-        android:id="@+id/seekBar"
-        android:layout_alignEnd="@+id/textView9"
-        android:layout_alignStart="@+id/textView9" />
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:id="@+id/editText" />
 
 
 </RelativeLayout>

@@ -3,37 +3,29 @@ package com.gracetex.revo.rudhra;
 import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
+import android.os.Handler;
 
 import com.gracetex.revo.rudhra.R;
 
 
 public class Welcome extends Activity {
 
+    private final int SPLASH_DISPLAY_LENGTH = 6000;
+
     @Override
     protected void onCreate(Bundle savedInstanceState){
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_welcome);
 
-        Thread timer = new Thread(){
-            public void run(){
-                try{
-                    sleep(2000);
-                }catch(InterruptedException e){
-                    e.printStackTrace();
-                }finally {
-                    Intent i = new Intent("com.gracetex.revo.rudhra.MAINACTIVITY");
-                    startActivity(i);
-                }
+        new Handler().postDelayed(new Runnable() {
+
+            @Override
+            public void run() {
+                Intent i = new Intent(com.gracetex.revo.rudhra.Welcome.this, com.gracetex.revo.rudhra.MainActivity.class);
+                Welcome.this.startActivity(i);
+                Welcome.this.finish();
             }
-        };
-        timer.start();
+        }, SPLASH_DISPLAY_LENGTH);
     }
-
-    @Override
-    protected void onPause() {
-        super.onPause();
-        finish();
-    }
-
 }
 

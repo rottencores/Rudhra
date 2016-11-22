@@ -1,17 +1,16 @@
 package com.gracetex.revo.rudhra;
 
+import android.app.Activity;
 import android.os.Bundle;
-import android.support.v7.app.AppCompatActivity;
-import android.widget.TextView;
 
-import com.gracetex.revo.rudhra.R;
+/**
+ * Created by r3v0 on 22/11/16.
+ */
 
-public class AboutUs extends AppCompatActivity {
-
+public class AboutUs extends Activity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_about_us);
     }
-
 }
