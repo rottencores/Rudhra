@@ -61,7 +61,7 @@
         jumboMode="true"
         optimize="true"
         revision="25.0.0"
-        sha1="622e5bcc899c25f0c770751d6b0d0e1e2d1e49ae">
+        sha1="ea37634b418e2832db2b594bcc59519b9514161c">
         <dex dex="/home/r3v0/Documents/Android/Mini Project/Rudhra/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_0180cb59e3516ffdd8fc90f80b8229b0a303782d/classes.dex" />
     </item>
     <item
@@ -70,7 +70,7 @@
         jumboMode="true"
         optimize="true"
         revision="25.0.0"
-        sha1="cb685593f1a7bac4a71daee7b2b6b93b7eb5af1c">
+        sha1="853d34247b029c3477ff07755ceb7784086d804c">
         <dex dex="/home/r3v0/Documents/Android/Mini Project/Rudhra/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_cf689c29627dc934ce25e8a9c7cf64f3298def76/classes.dex" />
     </item>
     <item

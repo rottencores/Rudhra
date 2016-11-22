@@ -14,7 +14,7 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
-            android:name=".MainActivity"
+            android:name=".Welcome"
             android:label="@string/app_name"
             android:theme="@style/AppTheme.NoActionBar">
             <intent-filter>
@@ -23,7 +23,7 @@
             </intent-filter>
         </activity>
 
-        <activity android:name=".Welcome"></activity>
+        <activity android:name=".MainActivity"></activity>
         <activity android:name=".AboutUs" ></activity>
         <activity android:name=".PermissionDescription" ></activity>
         <activity android:name=".SettingsScanner" ></activity>
