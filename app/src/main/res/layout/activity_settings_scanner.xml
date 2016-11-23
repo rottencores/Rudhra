@@ -8,7 +8,7 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    android:background="@color/blue"
+    android:background="@drawable/bluegreen"
     tools:context="com.gracetex.revo.rudhra.SettingsScanner">
 
 
@@ -32,28 +32,17 @@
         android:layout_alignBottom="@+id/DevB"
         android:layout_alignStart="@+id/ADBTView" />
 
-    <ToggleButton
-        android:text="ToggleButton"
+    <TextView
+        android:text="ADB Enabled"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:textSize="10dp"
+        android:textSize="15dp"
         android:clickable="true"
-        android:id="@+id/DevB"
-        android:layout_below="@+id/ADBt"
-        android:layout_alignParentEnd="true"
-        android:layout_marginTop="57dp" />
-
-    <ToggleButton
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="New ToggleButton"
-        android:id="@+id/USt"
-        android:textSize="10dp"
-
-        android:clickable="true"
-        android:layout_below="@+id/UnknownSources"
-        android:layout_alignParentEnd="true"
-        android:layout_marginTop="23dp" />
+        android:textColor="@color/white"
+        android:id="@+id/ADBTView"
+        android:layout_alignBaseline="@+id/ADBt"
+        android:layout_alignBottom="@+id/ADBt"
+        android:layout_alignStart="@+id/USourcesView" />
 
     <TextView
         android:layout_width="wrap_content"
@@ -70,26 +59,47 @@
         android:layout_toEndOf="@+id/UnknownSources" />
 
     <TextView
-        android:text="ADB Enabled"
+        android:text="Vulnerable Settings"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:textSize="15dp"
-        android:clickable="true"
+        android:textSize="25dp"
         android:textColor="@color/white"
-        android:id="@+id/ADBTView"
-        android:layout_alignBaseline="@+id/ADBt"
-        android:layout_alignBottom="@+id/ADBt"
-        android:layout_alignStart="@+id/USourcesView" />
+        android:id="@+id/textView4"
+        android:layout_alignTop="@+id/UnknownSources"
+        android:layout_centerHorizontal="true" />
+
+    <ToggleButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="New ToggleButton"
+        android:id="@+id/USt"
+        android:textSize="10dp"
+
+        android:clickable="true"
+        android:layout_marginTop="46dp"
+        android:layout_below="@+id/textView4"
+        android:layout_alignParentEnd="true" />
 
     <ToggleButton
         android:text="ToggleButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="58dp"
+        android:layout_marginTop="55dp"
         android:textSize="10dp"
         android:clickable="true"
         android:id="@+id/ADBt"
         android:layout_below="@+id/USt"
+        android:layout_alignParentEnd="true" />
+
+    <ToggleButton
+        android:text="ToggleButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="10dp"
+        android:clickable="true"
+        android:id="@+id/DevB"
+        android:layout_marginTop="57dp"
+        android:layout_below="@+id/ADBt"
         android:layout_alignParentEnd="true" />
 
     <TextView
@@ -101,9 +111,9 @@
         android:layout_height="wrap_content"
         android:id="@+id/textView13"
         android:contextClickable="true"
-        android:layout_below="@+id/DevB"
+        android:layout_alignParentBottom="true"
         android:layout_alignEnd="@+id/ADBTView"
-        android:layout_marginTop="79dp" />
+        android:layout_marginBottom="51dp" />
 
     <ToggleButton
         android:text="ToggleButton"
