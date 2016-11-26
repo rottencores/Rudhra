@@ -2,20 +2,26 @@ package com.gracetex.revo.rudhra;
 
 import android.app.Activity;
 import android.content.Intent;
+import android.graphics.Typeface;
 import android.os.Bundle;
 import android.os.Handler;
+import android.widget.TextView;
 
 import com.gracetex.revo.rudhra.R;
 
 
 public class Welcome extends Activity {
 
-    private final int SPLASH_DISPLAY_LENGTH = 6000;
+    private final int SPLASH_DISPLAY_LENGTH = 2000;
 
     @Override
     protected void onCreate(Bundle savedInstanceState){
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_welcome);
+
+
+
+
 
         new Handler().postDelayed(new Runnable() {
 
