@@ -3,7 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/bluegreen"
+    android:background="@color/violet"
     tools:context="com.gracetex.revo.rudhra.Welcome">
 
     <!-- The primary full-screen view. This can be replaced with whatever view
