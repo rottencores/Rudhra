@@ -34,6 +34,20 @@
     <LinearLayout
         android:orientation="vertical"
         android:layout_width="match_parent"
-        android:layout_height="509dp"></LinearLayout>
+        android:layout_height="509dp"
+        android:weightSum="1">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="468dp"
+            android:layout_weight="2.45">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:id="@+id/info" />
+        </ScrollView>
+    </LinearLayout>
 
 </android.support.design.widget.CoordinatorLayout>
