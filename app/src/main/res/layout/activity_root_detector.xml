@@ -53,8 +53,18 @@
         android:visibility="invisible"
         android:id="@+id/broottools"
         android:layout_alignParentBottom="true"
-        android:layout_alignStart="@+id/Roottb"
-        android:layout_marginBottom="19dp" />
+        android:layout_alignStart="@+id/Roottb" />
+
+    <Button
+        android:text="Unroot"
+        android:clickable="true"
+        android:visibility="invisible"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/broottools"
+        android:layout_alignEnd="@+id/broottools"
+        android:layout_marginBottom="11dp"
+        android:id="@+id/bunroot" />
 
 
 </RelativeLayout>

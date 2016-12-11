@@ -79,6 +79,24 @@ public class MainActivity extends AppCompatActivity
     }
 
 
+    public static long getUsedMemorySize() {
+
+        long freeSize = 0L;
+        long totalSize = 0L;
+        long usedSize = -1L;
+        try {
+            Runtime info = Runtime.getRuntime();
+            freeSize = info.freeMemory();
+            totalSize = info.totalMemory();
+            usedSize = totalSize - freeSize;
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+        return usedSize;
+
+    }
+
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -86,13 +104,15 @@ public class MainActivity extends AppCompatActivity
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         //setSupportActionBar(toolbar);
         final TextView cpu = (TextView)(findViewById(R.id.cputv));
+        final TextView ram = (TextView)(findViewById(R.id.ramtv));
         final android.os.Handler handler = new android.os.Handler();
 
         final Runnable r = new Runnable()
         {
             public void run()
             {
-                cpu.setText(" "+readCPUUsage());
+                cpu.setText(" "+readCPUUsage() +"%");
+                ram.setText(" "+getUsedMemorySize());
                 handler.postDelayed(this, 800);
             }
         };
