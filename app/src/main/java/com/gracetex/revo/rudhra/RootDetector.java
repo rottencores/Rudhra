@@ -27,6 +27,7 @@ public class RootDetector extends AppCompatActivity {
 
         ToggleButton rootb = (ToggleButton) (findViewById(R.id.Roottb));
         Button rtools = (Button)(findViewById(R.id.broottools));
+        Button unroot = (Button)(findViewById(R.id.bunroot));
         TextView roottv = (TextView) (findViewById(R.id.roottv));
 
         String yesdesc = "Your device has root access.Rooted devices allow lot of customizations but as well pose serious security issues.You can choose to unroot the device or install security-enhancing tools. Here is a list : ";
@@ -50,7 +51,18 @@ public class RootDetector extends AppCompatActivity {
                 }
             });
 
+            unroot.setOnClickListener(new Button.OnClickListener()
+            {
+                public void onClick(View v)
+                {
+                    Intent i = new Intent(RootDetector.this, Unroot.class);
+                    startActivity(i);
+                }
+
+            });
+
             rtools.setVisibility(View.VISIBLE);
+            unroot.setVisibility(View.VISIBLE);
 
         } else if(isRooted == false) {
             rootb.setChecked(false);
