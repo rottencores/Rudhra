@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
@@ -7,18 +8,7 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    android:background="@drawable/color" >
-
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:textAppearance="?android:attr/textAppearanceLarge"
-        android:text="Rudhra"
-        android:id="@+id/textVrudhra"
-        android:textSize="60dp"
-        android:textColor="@color/white"
-        android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true" />
+    android:background="@color/cyan" >
 
     <TextView
         android:layout_width="wrap_content"
@@ -29,18 +19,6 @@
         android:layout_marginTop="41dp"
         android:layout_below="@+id/textVrudhra"
         android:layout_centerHorizontal="true" />
-
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:textAppearance="?android:attr/textAppearanceMedium"
-        android:text="Abhishek B"
-        android:textSize="25dp"
-        android:textColor="@color/white"
-        android:id="@+id/textVrocky"
-        android:layout_below="@+id/textVdev"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="15dp" />
 
     <TextView
         android:layout_width="wrap_content"
@@ -79,7 +57,7 @@
         android:layout_marginTop="55dp" />
 
     <TextView
-        android:text="Bharath"
+        android:text="Bharath S"
         android:textSize="25dp"
         android:textColor="@color/white"
         android:layout_width="wrap_content"
@@ -88,5 +66,37 @@
         android:layout_centerHorizontal="true"
         android:layout_marginTop="13dp"
         android:id="@+id/textVbharath" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Abhishek B"
+        android:textSize="25dp"
+        android:textColor="@color/white"
+        android:id="@+id/textVrocky"
+        android:layout_marginTop="37dp"
+        android:layout_below="@+id/textVdev"
+        android:layout_alignStart="@+id/textVcryzal" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="RUDHRA"
+        android:id="@+id/textVrudhra"
+        android:textSize="60dp"
+        android:textColor="@color/white"
+        android:layout_marginTop="24dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:text="Project Rudhra"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/prjctbtn"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
 
 </RelativeLayout>

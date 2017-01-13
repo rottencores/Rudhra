@@ -1,13 +1,12 @@
 package com.gracetex.revo.rudhra;
 
+import android.content.Intent;
+import android.net.Uri;
 import android.os.Bundle;
-import android.support.design.widget.FloatingActionButton;
-import android.support.design.widget.Snackbar;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.View;
-
-import com.gracetex.revo.rudhra.R;
+import android.widget.Button;
 
 public class RootTools extends AppCompatActivity {
 
@@ -18,15 +17,42 @@ public class RootTools extends AppCompatActivity {
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
-        FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
-        fab.setOnClickListener(new View.OnClickListener() {
+        Button adblock = (Button)(findViewById(R.id.adblockbtn));
+        adblock.setOnClickListener(new View.OnClickListener() {
             @Override
-            public void onClick(View view) {
-                Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
-                        .setAction("Action", null).show();
+            public void onClick(View v) {
+
+                String url = "https://adblockplus.org/android-install";
+                Intent i = new Intent(Intent.ACTION_VIEW);
+                i.setData(Uri.parse(url));
+                startActivity(i);
+            }
+
+        });
+
+        Button greenify = (Button) (findViewById(R.id.greenifybtn));
+        greenify.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+                String url = "https://play.google.com/store/apps/details?id=com.oasisfeng.greenify";
+                Intent i = new Intent(Intent.ACTION_VIEW);
+                i.setData(Uri.parse(url));
+                startActivity(i);
             }
         });
-        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+
+        Button blocker = (Button) (findViewById(R.id.blockerbtn));
+        blocker.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                String url = "https://play.google.com/store/apps/details?id=com.netqin.mm";
+                Intent i = new Intent(Intent.ACTION_VIEW);
+                i.setData(Uri.parse(url));
+                startActivity(i);
+            }
+        });
+
     }
 
 }

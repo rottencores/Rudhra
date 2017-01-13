@@ -2,139 +2,121 @@
 <items version="2" >
 
     <item
-        is-multidex="true"
-        jar="/home/r3v0/Documents/Android/Mini Project/Rudhra/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/23.4.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="c2c594cace5d83a3227b2b6e658ecbfd586d3ed9">
-        <dex dex="/home/r3v0/Documents/Android/Mini Project/Rudhra/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-vector-drawable-23.4.0_c2f1a09b72b03be1db146b0f47ec8cf2528f8550/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/r3v0/Documents/Android/Mini Project/Rudhra/app/build/intermediates/exploded-aar/com.android.support/design/23.4.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="5326d9a850d491714fef8cbfaa9ea3416f0bf0d2">
-        <dex dex="/home/r3v0/Documents/Android/Mini Project/Rudhra/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-design-23.4.0_87e68de83d6f906c25fdc796a24e4ed8d235949d/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/r3v0/Documents/Android/Tools/Sdk/extras/android/m2repository/com/android/support/support-annotations/24.0.0/support-annotations-24.0.0.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="2943c74db6d4346ab8c6531adac91fa05c137c40">
-        <dex dex="/home/r3v0/Documents/Android/Mini Project/Rudhra/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-24.0.0_92dfcfae0a679e0ae97c61d22196c1db431482a1/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/r3v0/Documents/Android/Mini Project/Rudhra/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-appindexing/9.8.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="e3234cd25e23069abd48ecd2117bc0e8011bf45a">
-        <dex dex="/home/r3v0/Documents/Android/Mini Project/Rudhra/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-appindexing-9.8.0_0bc6b17f26b30d347ef785e19f5c01d69c02bae8/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/r3v0/Documents/Android/Mini Project/Rudhra/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-tasks/9.8.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="bf2e1838e4428616c1aa26edf43de72b5b99bf84">
-        <dex dex="/home/r3v0/Documents/Android/Mini Project/Rudhra/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-tasks-9.8.0_d3d70118f0bf9bc80abe95ef8d7e5a8b37df46d5/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/r3v0/Documents/Android/Mini Project/Rudhra/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/23.4.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="ec75036c3c52e451d0cde50a5aedaf5fd32354a0">
-        <dex dex="/home/r3v0/Documents/Android/Mini Project/Rudhra/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-recyclerview-v7-23.4.0_2fbc8b36bd0313bae9a70d182f02ace9b96a836e/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/r3v0/Documents/Android/Mini Project/Rudhra/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/23.4.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="de4db3785756bfb0915a9f59a9b3f2fea7407be4">
-        <dex dex="/home/r3v0/Documents/Android/Mini Project/Rudhra/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-animated-vector-drawable-23.4.0_c738c6bb6dfc04cbeed832b79afe7e50c0134716/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/r3v0/Documents/Android/Mini Project/Rudhra/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.0.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="2f7e6e2dad1bccaf68a8820820adc6c0d5b96d37">
-        <dex dex="/home/r3v0/Documents/Android/Mini Project/Rudhra/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-v4-24.0.0_3ae546e0288e3b4221535bde8bca27812bee2110/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/r3v0/Documents/Android/Mini Project/Rudhra/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.8.0/jars/classes.jar"
-        jumboMode="true"
+        is-multidex="false"
+        jar="C:\Users\midhul\AndroidStudioProjects\Rudhra-master\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\9.8.0\jars\classes.jar"
+        jumboMode="false"
         optimize="true"
         revision="25.0.0"
         sha1="7e92aadd0697922316d1395c1887a23aebec640a">
-        <dex dex="/home/r3v0/Documents/Android/Mini Project/Rudhra/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-base-9.8.0_a6a04241ba2f1be5d0f3a53f352409a083cbcc0d/classes.dex" />
+        <dex dex="C:\Users\midhul\AndroidStudioProjects\Rudhra-master\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-base-9.8.0_85de213671c7fad6e283ce4202050f2dd246c0d9.jar" />
     </item>
     <item
-        is-multidex="true"
-        jar="/home/r3v0/Documents/Android/Mini Project/Rudhra/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.0.0/jars/libs/internal_impl-24.0.0.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="fcaf463e10e69c1923ccf1edeba3b4196d239e00">
-        <dex dex="/home/r3v0/Documents/Android/Mini Project/Rudhra/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.0.0_bb029708d9e180e25e0294840b229000ecbff45e/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/r3v0/Documents/Android/Mini Project/Rudhra/app/build/intermediates/exploded-aar/com.google.firebase/firebase-common/9.8.0/jars/classes.jar"
-        jumboMode="true"
+        is-multidex="false"
+        jar="C:\Users\midhul\AndroidStudioProjects\Rudhra-master\app\build\intermediates\exploded-aar\com.google.firebase\firebase-common\9.8.0\jars\classes.jar"
+        jumboMode="false"
         optimize="true"
         revision="25.0.0"
         sha1="c61641e333fa88da21758bab8cc28ee16604b05f">
-        <dex dex="/home/r3v0/Documents/Android/Mini Project/Rudhra/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-common-9.8.0_99052ba053757310c6830815f8dbb5e8407bd2a2/classes.dex" />
+        <dex dex="C:\Users\midhul\AndroidStudioProjects\Rudhra-master\app\build\intermediates\pre-dexed\debug\com.google.firebase-firebase-common-9.8.0_b1e52b7dc8e7f0d0bcb47671a2eb89923796793b.jar" />
     </item>
     <item
-        is-multidex="true"
-        jar="/home/r3v0/Documents/Android/Mini Project/Rudhra/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/jars/classes.jar"
-        jumboMode="true"
+        is-multidex="false"
+        jar="C:\Users\midhul\AndroidStudioProjects\Rudhra-master\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\23.4.0\jars\classes.jar"
+        jumboMode="false"
         optimize="true"
         revision="25.0.0"
-        sha1="548f06de403a9409f00554b3ee12a9fdea0e236c">
-        <dex dex="/home/r3v0/Documents/Android/Mini Project/Rudhra/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-appcompat-v7-23.4.0_92cce0ac686cf77daf35bcfdffb210cff47bac18/classes.dex" />
+        sha1="de4db3785756bfb0915a9f59a9b3f2fea7407be4">
+        <dex dex="C:\Users\midhul\AndroidStudioProjects\Rudhra-master\app\build\intermediates\pre-dexed\debug\com.android.support-animated-vector-drawable-23.4.0_08ac223f25d801e8bb1a5e77e346b048b9da081a.jar" />
     </item>
     <item
-        is-multidex="true"
-        jar="/home/r3v0/Documents/Android/Mini Project/Rudhra/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/9.8.0/jars/classes.jar"
-        jumboMode="true"
+        is-multidex="false"
+        jar="C:\Users\midhul\AndroidStudioProjects\Rudhra-master\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\23.4.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="c2c594cace5d83a3227b2b6e658ecbfd586d3ed9">
+        <dex dex="C:\Users\midhul\AndroidStudioProjects\Rudhra-master\app\build\intermediates\pre-dexed\debug\com.android.support-support-vector-drawable-23.4.0_94d4697f193123d6907542dcd2ca10b025956644.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\midhul\AndroidStudioProjects\Rudhra-master\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-appindexing\9.8.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="e3234cd25e23069abd48ecd2117bc0e8011bf45a">
+        <dex dex="C:\Users\midhul\AndroidStudioProjects\Rudhra-master\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-appindexing-9.8.0_354711918d751859fa70afe428b5799de5252060.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\midhul\AndroidStudioProjects\Rudhra-master\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.0.0\jars\libs\internal_impl-24.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="fcaf463e10e69c1923ccf1edeba3b4196d239e00">
+        <dex dex="C:\Users\midhul\AndroidStudioProjects\Rudhra-master\app\build\intermediates\pre-dexed\debug\internal_impl-24.0.0_6e9cfd19f262a49e8a271f137fbd8c6bed050984.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\midhul\AndroidStudioProjects\Rudhra-master\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\23.4.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="ec75036c3c52e451d0cde50a5aedaf5fd32354a0">
+        <dex dex="C:\Users\midhul\AndroidStudioProjects\Rudhra-master\app\build\intermediates\pre-dexed\debug\com.android.support-recyclerview-v7-23.4.0_7d92b1427a6b901f440824f594b86f5b8a1014e1.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\midhul\AndroidStudioProjects\Rudhra-master\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\9.8.0\jars\classes.jar"
+        jumboMode="false"
         optimize="true"
         revision="25.0.0"
         sha1="9f6d236bac26d02b410e4ee186ba517ace5ee661">
-        <dex dex="/home/r3v0/Documents/Android/Mini Project/Rudhra/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-basement-9.8.0_6cf0816113219ff606c98936e0e7ecf4271b81f4/classes.dex" />
+        <dex dex="C:\Users\midhul\AndroidStudioProjects\Rudhra-master\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-basement-9.8.0_c20e0f669156b463fa464afd7e1d01f58d772280.jar" />
     </item>
     <item
-        is-multidex="true"
-        jar="/home/r3v0/Documents/Android/Mini Project/Rudhra/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
-        jumboMode="true"
+        is-multidex="false"
+        jar="C:\Users\midhul\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\24.0.0\support-annotations-24.0.0.jar"
+        jumboMode="false"
         optimize="true"
         revision="25.0.0"
-        sha1="8d73eeba28f2f8c03995472af6e11646a4051f53">
-        <dex dex="/home/r3v0/Documents/Android/Mini Project/Rudhra/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_0180cb59e3516ffdd8fc90f80b8229b0a303782d/classes.dex" />
+        sha1="2943c74db6d4346ab8c6531adac91fa05c137c40">
+        <dex dex="C:\Users\midhul\AndroidStudioProjects\Rudhra-master\app\build\intermediates\pre-dexed\debug\support-annotations-24.0.0_f9e310999884b85cba65694db35947785dae2a6e.jar" />
     </item>
     <item
-        is-multidex="true"
-        jar="/home/r3v0/Documents/Android/Mini Project/Rudhra/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
-        jumboMode="true"
+        is-multidex="false"
+        jar="C:\Users\midhul\AndroidStudioProjects\Rudhra-master\app\build\intermediates\exploded-aar\com.android.support\design\23.4.0\jars\classes.jar"
+        jumboMode="false"
         optimize="true"
         revision="25.0.0"
-        sha1="91f4642730fee1373dd3fee58a6c3109e7271371">
-        <dex dex="/home/r3v0/Documents/Android/Mini Project/Rudhra/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_cf689c29627dc934ce25e8a9c7cf64f3298def76/classes.dex" />
+        sha1="5326d9a850d491714fef8cbfaa9ea3416f0bf0d2">
+        <dex dex="C:\Users\midhul\AndroidStudioProjects\Rudhra-master\app\build\intermediates\pre-dexed\debug\com.android.support-design-23.4.0_a8f1dc3eddb1d034f4731ef6c53dc4969c21b458.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\midhul\AndroidStudioProjects\Rudhra-master\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-tasks\9.8.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="bf2e1838e4428616c1aa26edf43de72b5b99bf84">
+        <dex dex="C:\Users\midhul\AndroidStudioProjects\Rudhra-master\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-tasks-9.8.0_28403e6e25471916f21b527eb018a77c4f874351.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\midhul\AndroidStudioProjects\Rudhra-master\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.4.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="548f06de403a9409f00554b3ee12a9fdea0e236c">
+        <dex dex="C:\Users\midhul\AndroidStudioProjects\Rudhra-master\app\build\intermediates\pre-dexed\debug\com.android.support-appcompat-v7-23.4.0_a46edc20cea80fb63ded00a4b8d5bd6fa9e38846.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\midhul\AndroidStudioProjects\Rudhra-master\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.0.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="2f7e6e2dad1bccaf68a8820820adc6c0d5b96d37">
+        <dex dex="C:\Users\midhul\AndroidStudioProjects\Rudhra-master\app\build\intermediates\pre-dexed\debug\com.android.support-support-v4-24.0.0_7f12525ac404dd0ac05aa9e258e74ac4a2c1b218.jar" />
     </item>
 
 </items>

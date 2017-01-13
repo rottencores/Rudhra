@@ -76,4 +76,6 @@
     <string name="title_activity_about_us">AboutUs</string>
     <string name="title_activity_root_tools">RootTools</string>
     <string name="title_activity_permission_scanner">PermissionScanner</string>
+
+    <string name="title_activity_test">test</string>
 </resources>

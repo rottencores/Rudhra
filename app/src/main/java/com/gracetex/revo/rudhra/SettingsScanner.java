@@ -1,24 +1,17 @@
 package com.gracetex.revo.rudhra;
 
-import android.app.Service;
 import android.content.Intent;
 import android.net.Uri;
 import android.os.Bundle;
 import android.provider.Settings;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
-import android.widget.ImageView;
-import android.widget.RelativeLayout;
-import android.widget.TextView;
 import android.widget.ToggleButton;
 
 import com.google.android.gms.appindexing.Action;
 import com.google.android.gms.appindexing.AppIndex;
 import com.google.android.gms.appindexing.Thing;
 import com.google.android.gms.common.api.GoogleApiClient;
-import com.gracetex.revo.rudhra.R;
-
-import static android.provider.Settings.Secure.LOCK_PATTERN_ENABLED;
 
 public class SettingsScanner extends AppCompatActivity {
 
@@ -43,9 +36,6 @@ public class SettingsScanner extends AppCompatActivity {
         client = new GoogleApiClient.Builder(this).addApi(AppIndex.API).build();
     }
 
-    public void onClick(View v){
-
-    }
 
     public void checkSettings() throws Settings.SettingNotFoundException {
 
@@ -112,27 +102,6 @@ public class SettingsScanner extends AppCompatActivity {
                 @Override
                 public void onClick(View v) {
                     startActivityForResult(new Intent(Settings.ACTION_APPLICATION_DEVELOPMENT_SETTINGS), 0);
-                }
-            });
-        }
-
-
-
-
-
-
-
-        ToggleButton Slt = (ToggleButton) (findViewById(R.id.SLockt));
-
-        if (Settings.Secure.getInt(getContentResolver(), LOCK_PATTERN_ENABLED, 0) == 1) {
-            Slt.setChecked(true);
-
-        } else {
-            Slt.setChecked(false);
-            Slt.setOnClickListener(new View.OnClickListener() {
-                @Override
-                public void onClick(View v) {
-                    startActivityForResult(new Intent(Settings.ACTION_SECURITY_SETTINGS), 0);
                 }
             });
         }
