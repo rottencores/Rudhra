@@ -2,10 +2,12 @@ package com.gracetex.revo.rudhra;
 
 import android.app.Activity;
 import android.content.Intent;
+import android.graphics.Typeface;
 import android.os.Build;
 import android.os.Bundle;
 import android.os.Handler;
 import android.support.annotation.RequiresApi;
+import android.widget.TextView;
 
 
 public class Welcome extends Activity {
@@ -18,6 +20,12 @@ public class Welcome extends Activity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_welcome);
 
+        Typeface custom_font6 = Typeface.createFromAsset(getAssets(),  "fonts/MagmaWave_Caps.otf");
+        Typeface custom_font8 = Typeface.createFromAsset(getAssets(),  "fonts/bod.otf");
+
+        final TextView welc = (TextView) findViewById(R.id.tvr);
+
+        welc.setTypeface(custom_font6);
 
         new Handler().postDelayed(new Runnable() {
 

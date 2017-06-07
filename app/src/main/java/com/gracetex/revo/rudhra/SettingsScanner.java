@@ -1,11 +1,13 @@
 package com.gracetex.revo.rudhra;
 
 import android.content.Intent;
+import android.graphics.Typeface;
 import android.net.Uri;
 import android.os.Bundle;
 import android.provider.Settings;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
+import android.widget.TextView;
 import android.widget.ToggleButton;
 
 import com.google.android.gms.appindexing.Action;
@@ -26,6 +28,33 @@ public class SettingsScanner extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_settings_scanner);
+
+        final TextView ss = (TextView) findViewById(R.id.tvvs);
+        final TextView adbt = (TextView) findViewById(R.id.ADBTView);
+        final TextView usv = (TextView) findViewById(R.id.USourcesView);
+        final TextView db = (TextView) findViewById(R.id.DevTView);
+
+        final TextView usd = (TextView) findViewById(R.id.textView7);
+        final TextView debd = (TextView) findViewById(R.id.textView8);
+        final TextView devd = (TextView) findViewById(R.id.textView12);
+
+        Typeface custom_font1 = Typeface.createFromAsset(getAssets(),  "fonts/SourceSansPro-Black.otf");
+        Typeface custom_font2 = Typeface.createFromAsset(getAssets(),  "fonts/OstrichSans-Bold.otf");
+        Typeface custom_font3 = Typeface.createFromAsset(getAssets(),  "fonts/OdinBold.otf");
+        Typeface custom_font4 = Typeface.createFromAsset(getAssets(),  "fonts/trench100free.otf");
+        Typeface custom_font5 = Typeface.createFromAsset(getAssets(),  "fonts/More.otf");
+        Typeface custom_font6 = Typeface.createFromAsset(getAssets(),  "fonts/MagmaWave_Caps.otf");
+        Typeface custom_font7 = Typeface.createFromAsset(getAssets(),  "fonts/SR.otf");
+
+        ss.setTypeface(custom_font2);
+        usv.setTypeface(custom_font7);
+        adbt.setTypeface(custom_font7);
+        db.setTypeface(custom_font7);
+
+        usd.setTypeface(custom_font7);
+        debd.setTypeface(custom_font7);
+        devd.setTypeface(custom_font7);
+
         try {
             checkSettings();
         } catch (Settings.SettingNotFoundException e) {

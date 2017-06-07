@@ -3,12 +3,16 @@
 
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
-    <string name="Rocky">Abhishek B</string>
-    <string name="Jishnu">Jishnu S</string>
-    <string name="Midhul">Midhul M S</string>
     <string name="Revo">Abhishek J M</string>
     <string name="action_settings">Settings</string>
     <string name="title_activity_tools">Settings</string>
+
+
+    <string-array name="welscreen">
+        <item>CPU</item>
+        <item>RAM</item>
+    </string-array>
+
 
     <string name="welcome">Rudhra</string>
     <string name="welcome_caption">The Droid Vault</string>
@@ -78,4 +82,5 @@
     <string name="title_activity_permission_scanner">PermissionScanner</string>
 
     <string name="title_activity_test">test</string>
+    <string name="title_activity_main2">Main2Activity</string>
 </resources>

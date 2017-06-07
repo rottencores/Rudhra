@@ -6,7 +6,6 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:fitsSystemWindows="true"
-    android:background="@color/blue"
     tools:context="com.gracetex.revo.rudhra.MainActivity">
 
     <android.support.design.widget.AppBarLayout
@@ -24,6 +23,6 @@
     </android.support.design.widget.AppBarLayout>
 
 
-    <include layout="@layout/content_main"/>
+    <include layout="@layout/content_main2"/>
 
 </android.support.design.widget.CoordinatorLayout>

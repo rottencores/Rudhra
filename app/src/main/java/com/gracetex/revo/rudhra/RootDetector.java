@@ -1,6 +1,7 @@
 package com.gracetex.revo.rudhra;
 
 import android.content.Intent;
+import android.graphics.Typeface;
 import android.os.Build;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
@@ -22,13 +23,21 @@ public class RootDetector extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_root_detector);
 
+        Typeface custom_font2 = Typeface.createFromAsset(getAssets(),  "fonts/OstrichSans-Bold.otf");
+        Typeface custom_font7 = Typeface.createFromAsset(getAssets(),  "fonts/SR.otf");
+
+        final TextView tvroot1 = (TextView) findViewById(R.id.textView3);
+        tvroot1.setTypeface(custom_font2);
+        final TextView tvroot2 = (TextView) findViewById(R.id.roottv);
+        tvroot2.setTypeface(custom_font7);
+
         ToggleButton rootb = (ToggleButton) (findViewById(R.id.Roottb));
         Button rtools = (Button) (findViewById(R.id.broottools));
         Button unroot = (Button)(findViewById(R.id.bunroot));
         TextView roottv = (TextView) (findViewById(R.id.roottv));
 
-        String yesdesc = "Your device has root access.Rooted devices allow lot of customizations but as well pose serious security issues.You can choose to unroot the device or install security-enhancing tools. Here is a list : ";
-        String nodesc = "No root access detected !";
+        String yesdesc = "Your device has root access. Rooted devices allow lot of customizations but as well pose serious security issues by allowing apps to access lot of resources from the phone. You can choose to unroot the device or install security-enhancing tools. Here is a list : ";
+        String nodesc = "No root access detected. Your device is a little more safer!";
 
         boolean isRooted = FindRoot();
 

@@ -1,8 +1,12 @@
 package com.gracetex.revo.rudhra;
 
+import android.app.ActivityManager;
 import android.content.Intent;
+import android.content.res.Resources;
+import android.graphics.Typeface;
 import android.net.Uri;
 import android.os.Bundle;
+import android.os.Debug;
 import android.support.design.widget.NavigationView;
 import android.support.v4.view.GravityCompat;
 import android.support.v4.widget.DrawerLayout;
@@ -11,6 +15,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.widget.ListView;
 import android.widget.TextView;
 
 import com.google.android.gms.appindexing.Action;
@@ -20,6 +25,7 @@ import com.google.android.gms.common.api.GoogleApiClient;
 
 import java.io.IOException;
 import java.io.RandomAccessFile;
+import java.text.DecimalFormat;
 
 public class MainActivity extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
@@ -46,7 +52,8 @@ public class MainActivity extends AppCompatActivity
             reader.close();
             toks = load.split(" ");
             long cpu2 = ((((Long.parseLong(toks[2]) + Long.parseLong(toks[3])) + Long.parseLong(toks[4])) + Long.parseLong(toks[6])) + Long.parseLong(toks[7])) + Long.parseLong(toks[8]);
-            return ((float) (cpu2 - cpu1)) / ((float) ((cpu2 + Long.parseLong(toks[5])) - (cpu1 + idle1)));
+            DecimalFormat decimalFormat = new DecimalFormat("#.00");
+            return Float.parseFloat(decimalFormat.format(((float) (cpu2 - cpu1)) / ((float) ((cpu2 + Long.parseLong(toks[5])) - (cpu1 + idle1)))));
         } catch (IOException ex) {
             ex.printStackTrace();
             return 0.0f;
@@ -54,12 +61,13 @@ public class MainActivity extends AppCompatActivity
     }
 
 
-    public static float getUsedMemorySize() {
+    public static float getAppUsedMemorySize() {
 
         float freeSize = 0L;
         float totalSize = 0L;
         float usedSize = -1L;
         try {
+
             Runtime info = Runtime.getRuntime();
             freeSize = info.freeMemory();
             totalSize = info.totalMemory();
@@ -67,10 +75,22 @@ public class MainActivity extends AppCompatActivity
         } catch (Exception e) {
             e.printStackTrace();
         }
-        return usedSize;
-
+        DecimalFormat decimalFormat = new DecimalFormat("#.000");
+        return Float.parseFloat(decimalFormat.format(usedSize/1024));
     }
 
+    public int [] currentMem() {
+        ActivityManager.MemoryInfo mi = new ActivityManager.MemoryInfo();
+        ActivityManager activityManager = (ActivityManager) getSystemService(ACTIVITY_SERVICE);
+        activityManager.getMemoryInfo(mi);
+        int totalMegs = (int) (mi.totalMem / 0x100000L);
+        int availableMegs = (int) (mi.availMem / 0x100000L);
+        int usedMegs = totalMegs - availableMegs;
+        int totalGigs = totalMegs;
+        int [] mem = {totalMegs, usedMegs};
+        double percentAvail = mi.availMem / (double) mi.totalMem;
+        return mem;
+    }
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -78,16 +98,35 @@ public class MainActivity extends AppCompatActivity
         setContentView(R.layout.activity_main);
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         //setSupportActionBar(toolbar);
+        Typeface custom_font1 = Typeface.createFromAsset(getAssets(),  "fonts/SourceSansPro-Black.otf");
+        Typeface custom_font2 = Typeface.createFromAsset(getAssets(),  "fonts/OstrichSans-Bold.otf");
+        Typeface custom_font3 = Typeface.createFromAsset(getAssets(),  "fonts/OdinBold.otf");
+        Typeface custom_font4 = Typeface.createFromAsset(getAssets(),  "fonts/trench100free.otf");
+        Typeface custom_font5 = Typeface.createFromAsset(getAssets(),  "fonts/More.otf");
+        Typeface custom_font6 = Typeface.createFromAsset(getAssets(),  "fonts/MagmaWave_Caps.otf");
+        Typeface custom_font7 = Typeface.createFromAsset(getAssets(),  "fonts/SR.otf");
+        Typeface custom_font8 = Typeface.createFromAsset(getAssets(),  "fonts/bod.otf");
+
+        final TextView cpuload = (TextView) findViewById(R.id.textView10);
+        cpuload.setTypeface(custom_font1);
+        final TextView ramusage = (TextView) findViewById(R.id.textView14);
+        ramusage.setTypeface(custom_font1);
         final TextView cpu = (TextView)(findViewById(R.id.cputv));
+        cpu.setTypeface(custom_font2);
         final TextView ram = (TextView)(findViewById(R.id.ramtv));
+        ram.setTypeface(custom_font2);
+        final TextView tvw = (TextView) findViewById(R.id.tvwel);
+        tvw.setTypeface(custom_font3);
+
+
         final android.os.Handler handler = new android.os.Handler();
 
         final Runnable r = new Runnable()
         {
             public void run()
             {
-                cpu.setText(" "+readCPUUsage() +"%");
-                ram.setText(" "+getUsedMemorySize());
+                cpu.setText(" "+readCPUUsage() +" %");
+                ram.setText(" "+currentMem()[1] +" MB / "+currentMem()[0]+" MB");
                 handler.postDelayed(this, 800);
             }
         };

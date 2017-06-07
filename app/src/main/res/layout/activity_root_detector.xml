@@ -8,7 +8,6 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    android:background="@drawable/darkblue"
     tools:context="com.gracetex.revo.rudhra.RootDetector">
 
     <TextView
@@ -29,10 +28,9 @@
         android:textColor="@color/white"
         android:textSize="45dp"
         android:id="@+id/textView3"
-        android:layout_marginEnd="36dp"
-        android:layout_marginTop="56dp"
+        android:layout_marginTop="59dp"
         android:layout_alignParentTop="true"
-        android:layout_alignParentEnd="true" />
+        android:layout_centerHorizontal="true" />
 
     <ToggleButton
         android:text="ToggleButton"
@@ -41,6 +39,7 @@
         android:layout_marginTop="54dp"
         android:clickable="false"
         android:id="@+id/Roottb"
+        android:textColor="@color/orange"
         android:layout_below="@+id/textView3"
         android:layout_centerHorizontal="true"
         style="@style/AppTheme" />
@@ -51,6 +50,7 @@
         android:clickable="true"
         android:layout_height="wrap_content"
         android:visibility="invisible"
+        android:textColor="@color/orange"
         android:id="@+id/broottools"
         android:layout_alignParentBottom="true"
         android:layout_alignStart="@+id/Roottb" />
@@ -61,6 +61,7 @@
         android:visibility="invisible"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:textColor="@color/orange"
         android:layout_above="@+id/broottools"
         android:layout_alignEnd="@+id/broottools"
         android:layout_marginBottom="11dp"

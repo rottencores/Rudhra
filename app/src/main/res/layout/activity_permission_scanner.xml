@@ -5,7 +5,6 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:fitsSystemWindows="true"
-    android:background="@color/teel"
     tools:context="com.gracetex.revo.rudhra.PermissionScanner">
 
     <include layout="@layout/content_permission_scanner" />
